@@ -17,7 +17,7 @@ function Navbar() {
   return (
     <nav>
       <div className="logo">
-        <img src={logo} />
+        <img src={logo} alt="Robocon-logo" />
       </div>
 
       <ul className="nav-links">

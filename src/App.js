@@ -6,7 +6,8 @@ import {
   Navbar,
   Achievements,
   Gallery,
-  Sponsors
+  Sponsors,
+  Footer
 } from './components';
 import axios from 'axios';
 import './App.css';
@@ -26,6 +27,7 @@ function App() {
             <Route path="/sponsors" component={Sponsors} />
           </Switch>
         </div>
+        <Footer />
       </Router>
     </>
   );
