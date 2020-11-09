@@ -1,0 +1,17 @@
+.img-fluid-animated{
+    animation: up-down 1s ease-in-out infinite alternate-reverse both;
+    width: 630px;
+    height:450px;
+    padding-left: 20%;
+    padding-top: 15%;
+}
+
+@keyframes up-down {
+    0% {
+        transform: translateY(30px);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+

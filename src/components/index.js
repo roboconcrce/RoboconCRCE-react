@@ -5,3 +5,5 @@ export { default as Achievements } from './Achievements/Achievements';
 export { default as Gallery } from './Gallery/Gallery';
 export { default as Sponsors } from './Sponsors/Sponsors';
 export { default as Footer } from './Footer/Footer';
+export { default as SRContact } from './SRContact/SRContact';
+export { default as Forms } from './SRContact/Forms';

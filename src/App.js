@@ -6,6 +6,8 @@ import {
   Navbar,
   Achievements,
   Gallery,
+  SRContact,
+  Form,
   Sponsors,
   Footer
 } from './components';
@@ -21,6 +23,7 @@ function App() {
         <div className="container">
           <Switch>
             <Route path="/home" component={Home} />
+            <Route path="/srcontact" component={SRContact} />
             <Route path="/contact" component={Contact} />
             <Route path="/achievements" component={Achievements} />
             <Route path="/gallery" component={Gallery} />
