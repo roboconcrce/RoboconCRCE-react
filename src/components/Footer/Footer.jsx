@@ -6,7 +6,8 @@ import {
   LinkedinFilled,
   MailFilled,
   PhoneFilled,
-  HomeFilled
+  HomeFilled,
+  YoutubeFilled
 } from '@ant-design/icons';
 import { Row, Col } from 'antd';
 
@@ -22,11 +23,14 @@ function Footer() {
               <a target="_blank" href="https://www.facebook.com/roboconcrce/">
                 <FacebookFilled className="icon" />
               </a>
-              <a target="_blank" href="">
+              <a target="_blank" href="https://www.instagram.com/robocon.crce/">
                 <InstagramFilled className="icon" />
               </a>
-              <a target="_blank" href="">
+              <a target="_blank" href="https://www.linkedin.com/in/robocon-frcrce-958583148/">
                 <LinkedinFilled className="icon" />
+              </a>
+              <a target="_blank" href="https://www.youtube.com/channel/UCbejVM8W4XUWwHX5Of_tPFQ">
+                <YoutubeFilled className="icon" />
               </a>
             </div>
           </div>
