@@ -18,6 +18,7 @@ function Navbar() {
   return (
     <nav>
       <div className="logo">
+
       <NavbarBrand>
         <NavLink to="/home" className="nav-logo">
           <img src={logo} />
@@ -25,6 +26,9 @@ function Navbar() {
       </NavbarBrand>
         
         
+
+        {/* <img src={logo} alt="Robocon-logo" /> */}
+
       </div>
 
       <ul className="nav-links">

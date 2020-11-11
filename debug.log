@@ -1,5 +1,11 @@
 [1019/133056.940:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
 [1023/200828.538:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
 [1023/230842.267:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+<<<<<<< HEAD
 [1024/222445.588:ERROR:crash_report_database_win.cc(480)] bad string table
 [1024/224136.551:ERROR:crash_report_database_win.cc(480)] bad string table
+=======
+[1026/223159.015:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1028/182729.439:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1030/222830.693:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+>>>>>>> acf460529ed6402c82bf3aa179ae125e24e7a4ce

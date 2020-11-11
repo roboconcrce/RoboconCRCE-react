@@ -38,10 +38,13 @@ nav {
   justify-content: space-between;
   padding: 0 2rem;
   align-items: center;
-  background-color: rgb(223, 223, 223);
+  background-color: #eeeeee;
+  /* background: url('../../assets/img/honeycomb-34984_1280.png'); */
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 4;
+  box-shadow: -5px 5px 10px 5px rgb(82, 78, 78);
 }
 
 .logo {
