@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { Drawer, Button } from 'antd';
+import {NavbarBrand} from 'reactstrap';
 import './navbar.css';
 import logo from '../../assets/img/logo_trans_low.png';
 
@@ -17,7 +18,17 @@ function Navbar() {
   return (
     <nav>
       <div className="logo">
-        <img src={logo} alt="Robocon-logo" />
+
+      <NavbarBrand>
+        <NavLink to="/home" className="nav-logo">
+          <img src={logo} />
+        </NavLink>
+      </NavbarBrand>
+        
+        
+
+        {/* <img src={logo} alt="Robocon-logo" /> */}
+
       </div>
 
       <ul className="nav-links">
