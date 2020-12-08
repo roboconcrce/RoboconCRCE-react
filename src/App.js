@@ -24,7 +24,7 @@ function App() {
             <Route path="/contact" component={Contact} />
             <Route path="/achievements" component={Achievements} />
             <Route path="/gallery" component={Gallery} />
-            <Route path="/sponsors" component={Sponsors} />
+            <Route path="/sponsors" component={Sponsors} /> 
           </Switch>
         </div>
         <Footer />
