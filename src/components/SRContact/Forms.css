@@ -1,23 +1,30 @@
+
 #box {
   width: 90%;
   padding: 4px 5px;
-  margin: 5px 0px;
-  margin-bottom: -5%;
+  padding-left: 1%;
+  margin: 4px 0px;
+  margin-bottom: -3%;
   box-sizing: border-box;
-  border: 2px solid #1e0e75;
+  border: 2px solid blue;
   border-radius: 10px;
   font-size: large;
+  background-color: rgb(31, 27, 27);
+  color: white(255, 255, 255);
 }
 #submit {
   margin: 5px 0px;
   margin-top: 5%;
+  margin-bottom: 10%;
   border-radius: 10px;
+  box-sizing: border-box;
+  border: 3px solid blue;
   font-size: medium;
-  background-color: white;
-  transition: 0.5s;
+  background-color: rgba(87, 74, 74, 0.267);
+  transition: 0.3s;
   display: inline-block;
 }
 #submit:hover {
-  background-color: rgb(91, 10, 167);
+  background-color: rgb(44, 55, 204);
   color: white;
 }
