@@ -9,6 +9,7 @@ import {
   Sponsors,
   Footer
 } from './components';
+import ScrollToTop from './components/ScrollToTop';
 import axios from 'axios';
 import './App.css';
 
@@ -20,13 +21,15 @@ function App() {
 
         <div className="container">
           <Switch>
-            <Route path="/home" component={Home} />
-            <Route path="/contact" component={Contact} />
-            <Route path="/achievements" component={Achievements} />
-            <Route path="/gallery" component={Gallery} />
-            <Route path="/sponsors" component={Sponsors} /> 
+            <ScrollToTop>
+              <Route path="/home" component={Home} />
+              <Route path="/contact" component={Contact} />
+              <Route path="/achievements" component={Achievements} />
+              <Route path="/gallery" component={Gallery} />
+              <Route path="/sponsors" component={Sponsors} /> 
+            </ScrollToTop>           
           </Switch>
-        </div>
+        </div> 
         <Footer />
       </Router>
     </>
