@@ -106,4 +106,8 @@ hr {
     background-color: #1a1c20;
     padding: 2rem 12px;
   }
+
+  .ps-p2 {
+    padding: 0 2rem;
+  }
 }

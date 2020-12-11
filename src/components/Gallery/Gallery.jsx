@@ -75,8 +75,9 @@ function Gallery() {
     <section id='gallery'>
       <p className='header'>Gallery</p>
       <GalleryImg photos={photos}/>
+
     </section>
-    //<GalleryImg photos={photos}/>
+    
   )
 
   // return (

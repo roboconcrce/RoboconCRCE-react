@@ -8,7 +8,7 @@ function ProblemStatement(props) {
     <Row>
       <Col lg={8} xs={24}>
         <div className="ps-p1">
-          <iframe width="350" height="245" src={props.youtube}></iframe>
+          <iframe width="320" height="245" src={props.youtube}></iframe>
         </div>
       </Col>
       <Col lg={16} xs={24}>
