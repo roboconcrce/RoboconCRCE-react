@@ -7,6 +7,7 @@ import logo5 from '../../assets/img/gallery/logo5.png'
 import Chart from './Chart'
 import './sponsors.css'
 import {Row,Col,Button} from 'antd'
+import file from './spon.pdf'
 
 function Sponsors() {
   return (
@@ -15,7 +16,7 @@ function Sponsors() {
     <Row>
       <Col lg={4} xs={24}>
       <div style={{verticalAlign:'center'}}>
-       <p style={{color:'#eee',fontSize:'1rem'}}><em>You can download the sponsorship brochure <span ><a style={{color:'#f25c27'}} href='spon.pdf'>here</a></span></em></p>
+       <p style={{color:'#eee',fontSize:'1rem'}}><em>You can download the sponsorship brochure <span ><a style={{color:'#f25c27'}} href={file} download>here</a></span></em></p>
       
       </div>
         </Col>

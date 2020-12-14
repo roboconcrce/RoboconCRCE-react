@@ -5,12 +5,13 @@ import std4 from '../../assets/img/slide/Stadium4.PNG';
 import t1 from '../../assets/img/slide/Team1.jpg';
 import t2 from '../../assets/img/slide/Team2.jpg';
 import ProblemStatement from './ProblemStatement';
-import {Row,Col} from 'antd';
+import {Row,Col,Button} from 'antd';
 import './home.css';
 
 function Home() {
   return (
-    <>
+    <section id='home'>
+    
       <div className="ss-container">
         <Carousel autoplay>
           <div>
@@ -104,7 +105,7 @@ function Home() {
               from Eco Robot and climb up Wind Turbine Pole in order to assemble Wind Turbine."  
           />
       </div>
-    </>
+    </section>
   );
 }
 

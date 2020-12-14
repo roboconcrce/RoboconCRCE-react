@@ -16,7 +16,7 @@ function Navbar() {
   };
 
   return (
-    <nav>
+    <nav id='navbar'>
       <div className="logo">
 
       {/* <NavbarBrand> */}

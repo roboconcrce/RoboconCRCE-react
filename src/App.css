@@ -2,5 +2,6 @@
 .container {
   padding: 5.5rem 0 2px;
   margin: 0;
-  width: 100%;
+  /* width: 100%; */
+  overflow-x: hidden;
 }

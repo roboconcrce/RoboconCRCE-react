@@ -15,9 +15,12 @@ function ProblemStatement(props) {
       <div className="ps-p2">
         <h1>{props.title}</h1>
             <h4><em>{props.description}</em></h4>
-            <a href="http://www.aburobocon.net/" >
-             More
-            </a>
+            <Button type='primary' danger>
+              <a href="http://www.aburobocon.net/" >
+              More
+              </a>
+            </Button>
+            
             
         </div>
       </Col>

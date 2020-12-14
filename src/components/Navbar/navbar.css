@@ -1,45 +1,12 @@
-/* .nav {
-  padding: 0 20px;
-  border-bottom: solid 1px #e8e8e8;
-  overflow: auto;
-  box-shadow: 0 0 30px #f3f1f1;
-  display: flex;
-  align-items: center;
-  position: fixed;
-  justify-content: space-between;
-  top: 0;
-  width: 100%;
-  background-color: #fff;
-}
-
-.logo {
-  width: 150px;
-  float: left;
-  padding: 0.5rem 0;
-}
-
-.ul {
-  list-style: none;
-  display: flex;
-  flex-flow: row;
-}
-
-.ul li {
-  padding: 18px 10px;
-}
-*/
-/* .menuCon {
-  width: calc(100% - 150px);
-  float: right;
-} */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
 
 nav {
   display: flex;
   justify-content: space-between;
+  font-family: 'Roboto Mono', monospace;
   padding: 0 2rem;
   align-items: center;
   background-color: #eeeeee;
-  /* background: url('../../assets/img/honeycomb-34984_1280.png'); */
   position: fixed;
   top: 0;
   width: 100%;
@@ -72,8 +39,9 @@ nav {
 .nav-item {
   text-decoration: none;
   color: rgb(17, 16, 16);
-  padding: 1rem 1.3rem;
-  font-size: 1.1rem;
+  padding: 1rem;
+  /* font-weight: 700; */
+  font-size: 1rem;
 }
 
 .nav-item:hover,
@@ -85,7 +53,7 @@ nav {
   border-right: 3px solid #f25c27;
 }
 
-.ant-btn,
+#navbar .ant-btn,
 .burger {
   display: none !important;
 
@@ -128,7 +96,7 @@ nav {
   .nav-item {
     padding: 0.5rem 0;
   }
-  .ant-btn,
+  #navbar .ant-btn,
   .burger {
     display: inline-block !important;
     background-color: transparent;
