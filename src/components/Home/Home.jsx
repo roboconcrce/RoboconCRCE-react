@@ -1,8 +1,12 @@
 import React from 'react';
 import { Carousel } from 'antd';
+import senior_t2020 from '../../assets/img/slide/Senior_Team.jpg';
+import junior_t1_2020 from '../../assets/img/slide/Junior_Team1.jpg';
+import junior_t2_2020 from '../../assets/img/slide/Junior_Team2.jpg';
 import std3 from '../../assets/img/slide/Stadium3.jpg';
 import std4 from '../../assets/img/slide/Stadium4.PNG';
 import t1 from '../../assets/img/slide/Team1.jpg';
+
 import t2 from '../../assets/img/slide/Team2.jpg';
 import ProblemStatement from './ProblemStatement';
 import {Row,Col,Button} from 'antd';
@@ -14,6 +18,15 @@ function Home() {
     
       <div className="ss-container">
         <Carousel autoplay>
+          <div>
+            <img src={senior_t2020} alt="ss" className="ss2-img" />
+          </div>
+          <div>
+            <img src={junior_t1_2020} alt="ss" className="ss2-img" />
+          </div>
+          <div>
+            <img src={junior_t2_2020} alt="ss" className="ss2-img" />
+          </div>
           <div>
             <img src={t1} alt="ss" className="ss-img" />
           </div>
@@ -45,16 +58,7 @@ function Home() {
         
         </div>
       </div>
-      {/* <div className="home2">
-        <div>
-          <img src={robotImg} alt="robot" height="300" width="70%"/>
-        </div>
-        <div className='intro'>
-        <h1>Welcome</h1>
-        <h3>Team Robocon CRCE is a robotics team from Fr. Conceicao Rodrigues College of Engineering, Bandra (W).
-        We're a group of budding undergrad engineers who make robots to participate in Robocon India.</h3>
-        </div>
-      </div> */}
+      
 
       <div className='abu-robocon'>
         <h2>ABU Robocon</h2>

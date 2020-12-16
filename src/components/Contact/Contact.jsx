@@ -110,13 +110,9 @@ function Contact() {
                </Button> 
                : 
                <Button type='primary' onClick={onSubmit} >
-                Submit
+                Send
                </Button> 
-              }
-              
-              
-
-             
+              }     
             </Form>         
           </div>
         </Col>
