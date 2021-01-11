@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+
+/* .ant-carousel .slick-prev,
+.ant-carousel .slick-next {
+  color: white;
+  font-size: 50px;
+}
+
+.ant-carousel .slick-prev:hover,
+.ant-carousel .slick-next:hover,
+.ant-carousel .slick-prev:focus,
+.ant-carousel .slick-next:focus {
+  color: white;
+} */
 #home {
   font-family: 'Poppins', sans-serif;
 }

@@ -55,7 +55,7 @@ function Footer() {
                 <td>
                   <PhoneFilled className="icon" />
                 </td>
-                <td className="td-text">8569455785</td>
+                <td className="td-text">7045898193</td>
               </tr>
               <tr>
                 <td>

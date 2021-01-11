@@ -10,6 +10,8 @@ import t1 from '../../assets/img/slide/Team1.jpg';
 import t2 from '../../assets/img/slide/Team2.jpg';
 import ProblemStatement from './ProblemStatement';
 import {Row,Col,Button} from 'antd';
+//import { ArrowLeftOutlined, ArrowRightOutlined } from '@ant-design/icons'
+
 import './home.css';
 
 function Home() {

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink,Link} from 'react-router-dom';
 import { Drawer, Button } from 'antd';
 import './navbar.css';
 import logo from '../../assets/img/logo_trans_low.png';
@@ -55,6 +55,14 @@ function Navbar() {
             CONTACT US
           </NavLink>
         </li>
+        <li>
+          <Link to={{ pathname: "https://blog.roboconcrce.org/" }} target="_blank" className="nav-item" activeClassName="active">
+            
+              BLOGS
+          </Link> 
+          
+        </li>
+
       </ul>
 
       <Button className="burger" onClick={showDrawer}>
@@ -94,6 +102,14 @@ function Navbar() {
           <NavLink to="/contact" className="nav-item" activeClassName="active">
             CONTACT US
           </NavLink>
+
+          <NavLink to="/contact" className="nav-item" activeClassName="active">
+            BLOGS
+          </NavLink>
+          <Link to={{ pathname: "https://blog.roboconcrce.org/" }} target="_blank" className="nav-item" activeClassName="active">
+            
+            BLOGS
+        </Link> 
         </div>
       </Drawer>
     </nav>
