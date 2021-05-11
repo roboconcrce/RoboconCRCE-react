@@ -55,7 +55,7 @@ function Footer() {
                 <td>
                   <PhoneFilled className="icon" />
                 </td>
-                <td className="td-text">7045898193</td>
+                <td className="td-text">Richa Tripathi:  7045898193 (Captain) <br/>Rachel Sequeira: 9004711362 </td>
               </tr>
               <tr>
                 <td>
